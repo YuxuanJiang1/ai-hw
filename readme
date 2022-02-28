@@ -1,0 +1,9 @@
+for KNN algo,use:
+python knn.py kNN -k 3 -d e2 -train some-input.txt -test test-file.txt
+
+if there has tie situation,the algo will random select one class as its output.Thus there maybe some differences when tie case presents.
+
+for KMeans algo,use:
+python knn.py kMeans -k 3 -d e2 -data some-input.txt 0,500 200,200 1000,1000
+
+To use manhaton distance, use -d manh options.
