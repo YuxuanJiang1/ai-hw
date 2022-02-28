@@ -1,9 +1,5 @@
-for KNN algo,use:
-python knn.py kNN -k 3 -d e2 -train some-input.txt -test test-file.txt
-
-if there has tie situation,the algo will random select one class as its output.Thus there maybe some differences when tie case presents.
-
-for KMeans algo,use:
-python knn.py kMeans -k 3 -d e2 -data some-input.txt 0,500 200,200 1000,1000
-
-To use manhaton distance, use -d manh options.
+The inputfile must end with ".txt" format,and the output value will be e-5 decimal accuracy.
+The command should be like:
+python yj2199lab3.py -df .9 -min -iter 50 -tol 0.0001 input1.txt
+For example,the input file is "input1.txt",with -df=0.9, with iters,tolerance,policy are all default,just neglect them.Using command:
+python yj2199lab3.py -df .9  input1.txt
